@@ -1,0 +1,77 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Материалы для плазменной резки — сталь, нержавейка, алюминий | АИДБУЛАТ</title><meta name="description" content="Что режем: сталь, нержавейка, алюминий. Как толщина и материал влияют на кромку, вес и стоимость. Гродно."><meta property="og:type" content="website"><meta property="og:title" content="Материалы для плазменной резки — сталь, нержавейка, алюминий | АИДБУЛАТ"><meta property="og:description" content="Что режем: сталь, нержавейка, алюминий. Как толщина и материал влияют на кромку, вес и стоимость. Гродно."><meta property="og:image" content="assets/img/hero.jpg"><style>
+:root{--paper:#F4F6F7;--steel:#E6EBED;--ink:#12171A;--ink2:#414C52;--muted:#6E7A80;
+--spark:#C1440C;--spark2:#E4571A;--line:rgba(18,23,26,.16);--line2:rgba(18,23,26,.34);
+--f-d:"Oswald",Impact,system-ui,sans-serif;--f-b:"IBM Plex Sans",system-ui,sans-serif;--f-m:"IBM Plex Mono",monospace}
+*,*::before,*::after{box-sizing:border-box}
+html{font-size:19px;-webkit-text-size-adjust:100%;overflow-x:clip}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-b);line-height:1.55;
+-webkit-font-smoothing:antialiased;overflow-x:hidden;background-image:
+linear-gradient(rgba(18,23,26,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(18,23,26,.035) 1px,transparent 1px);
+background-size:56px 56px}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+h1,h2,h3,h4,p,ul,ol,dl,figure{margin:0}ul,ol{padding-left:1.1em}
+h1,h2,h3{font-family:var(--f-d);font-weight:600;line-height:.98;letter-spacing:.005em;
+text-transform:uppercase;overflow-wrap:anywhere}
+h1{font-size:clamp(2rem,4.4vw,3.75rem)}
+h2{font-size:clamp(1.55rem,2.9vw,2.5rem)}
+h3{font-size:clamp(1rem,1.35vw,1.16rem);line-height:1.1;letter-spacing:.02em}
+p{color:var(--ink2)}
+em{font-style:normal;color:var(--spark)}
+.mono{font-family:var(--f-m);font-size:.62rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.wrap{width:100%;max-width:1320px;margin:0 auto;padding-inline:clamp(16px,3vw,40px)}
+.tbar{background:var(--ink);color:#EDF1F2;font-size:.67rem}
+.tbar__in{display:flex;gap:14px;align-items:center;justify-content:space-between;min-height:36px;flex-wrap:wrap}
+.tbar span{opacity:.84}.tbar a{font-family:var(--f-m);font-size:.7rem;color:#fff;white-space:nowrap}
+.hdr{background:var(--paper);border-bottom:1px solid var(--line2);position:relative;z-index:60}
+.hdr__in{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-block:12px}
+.logo{display:flex;align-items:center;gap:12px;min-width:0}
+.logo i{width:40px;height:40px;flex:none;display:grid;place-items:center;background:var(--ink);
+color:#fff;font-family:var(--f-m);font-size:.58rem;font-style:normal;letter-spacing:.04em;position:relative}
+.logo i::after{content:"";position:absolute;left:5px;right:5px;bottom:6px;height:2px;background:var(--spark2)}
+.logo b{font-family:var(--f-d);font-weight:600;font-size:1.32rem;letter-spacing:.045em;text-transform:uppercase;
+white-space:nowrap;display:block;line-height:1.1}
+.logo span{display:block;font-family:var(--f-m);font-size:.55rem;letter-spacing:.1em;color:var(--muted);
+text-transform:uppercase;margin-top:2px}
+.hdr__right{display:flex;align-items:center;gap:12px}
+.tel{font-family:var(--f-m);font-size:.82rem;font-weight:600;white-space:nowrap}
+.strip{border-bottom:1px solid var(--line2);background:var(--paper);position:relative;z-index:55}
+.strip__in{display:flex;gap:1px;overflow-x:auto;scrollbar-width:none}
+.strip__in::-webkit-scrollbar{display:none}
+.strip__in a{flex:none;padding:14px 12px 12px;font-size:.82rem;font-weight:500;color:var(--ink2);
+border-bottom:3px solid transparent;white-space:nowrap}
+.strip__in a:hover{color:var(--ink);background:var(--steel)}
+.strip__in a[aria-current]{color:var(--spark);border-bottom-color:var(--spark);font-weight:600}
+.burger{display:none;width:44px;height:40px;border:1px solid var(--line2);background:#fff;
+align-items:center;justify-content:center;flex-direction:column;gap:4px;cursor:pointer;padding:0}
+.burger i{display:block;width:18px;height:2px;background:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:50px;padding:0 20px;background:var(--ink);
+color:#fff;font-size:.87rem;font-weight:600;border:1px solid var(--ink);border-radius:0}
+.btn:hover{background:#000}
+.btn--spark{background:var(--spark);border-color:var(--spark)}
+.btn--spark:hover{background:#A93809}
+.btn--line{background:transparent;color:var(--ink);border-color:var(--line2)}
+.btn--line:hover{background:var(--steel)}
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line2);background:var(--paper)}
+.hero__bg{position:absolute;inset:0}
+.hero__bg img{width:100%;height:100%;object-fit:cover;object-position:62% 50%}
+.hero__bg::after{content:"";position:absolute;inset:0;background:
+linear-gradient(96deg,var(--paper) 0%,rgba(244,246,247,.98) 34%,rgba(244,246,247,.72) 54%,rgba(244,246,247,.06) 84%)}
+.hero__in{position:relative;z-index:2;padding-block:clamp(32px,5vw,60px);min-height:clamp(510px,68vh,650px);
+display:flex;flex-direction:column;justify-content:center}
+.hero h1{max-width:19ch;margin-top:15px}
+.hero p{max-width:44ch;margin-top:15px}
+.kick{display:inline-flex;align-items:center;gap:9px;font-family:var(--f-m);font-size:.61rem;
+letter-spacing:.14em;text-transform:uppercase;color:var(--spark)}
+.kick::before{content:"";width:24px;height:2px;background:currentColor}
+.hero__cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.hero__figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);
+border:1px solid var(--line2);margin-top:clamp(20px,3vw,32px);max-width:640px}
+.hero__figs>div{background:rgba(244,246,247,.96);padding:12px 14px}
+.hero__figs b{display:block;font-family:var(--f-m);font-size:1rem;font-weight:600}
+.hero__figs span{display:block;font-size:.68rem;color:var(--muted);margin-top:2px}
+.band{padding-block:clamp(40px,5.2vw,72px);border-bottom:1px solid var(--line)}
+.band--steel{background:var(--steel)}
+.band--ink{background:var(--ink);color:#fff}
+.band--ink h2,.band--ink h3{color:#fff}.band--ink p{color:rgba(255,255,255,.82)}
+.band--ink .mono,.band--ink .kick{color:#F0A275}
+</style><link rel="stylesheet" href="assets/css/site.v1.css"><link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"></head><body><div class="tbar"><div class="wrap tbar__in"><span>ООО «АИДБУЛАТ» · Гродно</span><span>Плазменная резка на ЧПУ · любая геометрия</span><a href="tel:+375336865609">+375 (33) 686-56-09</a></div></div><header class="hdr"><div class="wrap hdr__in"><a class="logo" href="index.html"><i>CNC</i><span><b>АИДБУЛАТ</b><span>плазменная резка металла</span></span></a><div class="hdr__right"><a class="tel" href="tel:+375336865609">+375 (33) 686-56-09</a><a class="btn btn--spark" href="kontakty.html#zayavka" style="min-height:42px;padding:0 15px;font-size:.8rem">Заявка</a><button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><i></i><i></i><i></i></button></div></div></header><div class="strip"><div class="wrap"><nav class="strip__in" aria-label="Страницы сайта"><a href="index.html">Главная</a><a href="uslugi.html">Услуги</a><a href="materialy.html" aria-current="page">Материалы</a><a href="konstruktor.html">Конструктор детали</a><a href="kachestvo.html">Качество</a><a href="etapy.html">Этапы</a><a href="o-kompanii.html">О компании</a><a href="kontakty.html">Контакты</a><a href="politika.html">Политика</a></nav></div></div><main><section class="hero"><div class="hero__bg"><img src="assets/img/detali.jpg" alt="АИДБУЛАТ: плазменная резка металла на ЧПУ, Гродно"></div><div class="hero__in"><div class="wrap"><span class="kick">Материалы</span><h1>Материалы и <em>толщины</em></h1><p>Сталь, нержавейка, алюминий. Толщина и материал влияют на режим резки, кромку и стоимость.</p><div class="hero__cta"><a class="btn" href="tel:+375336865609">Позвонить · +375 (33) 686-56-09</a><a class="btn btn--line" href="konstruktor.html">Конструктор детали</a></div><div class="hero__figs"><div><b>Сталь</b><span>основной материал</span></div><div><b>Нержавейка</b><span>стойкость</span></div><div><b>Алюминий</b><span>лёгкий вес</span></div></div></div></div></section><section class="band "><div class="wrap"><div class="sect__head"><div class="h2w"><span class="mono">01 · сталь</span><h2>Сталь</h2></div><div><p>Основной материал для большинства задач: рамы, кронштейны, пластины, фланцы.</p></div></div><div class="rows"><div class="row"><div class="row__n">01</div><div><h3>Конструкционная сталь</h3><p>Пластины, косынки, кронштейны, заготовки под сварку.</p></div></div><div class="row"><div class="row__n">02</div><div><h3>Толстый металл</h3><p>Режется медленнее, кромка грубее — это учитывается в расчёте.</p></div></div><div class="row"><div class="row__n">03</div><div><h3>Тонкий лист</h3><p>Требует аккуратности: нагрев может увести геометрию, деталь обсуждаем отдельно.</p></div></div></div></div></section><section class="band band--steel"><div class="wrap"><div class="sect__head"><div class="h2w"><span class="mono">02 · нержавейка и алюминий</span><h2>Нержавейка и алюминий</h2></div><div><p>Материалы, где важны аккуратность и понимание задачи.</p></div></div><div class="cards"><div class="card"><div class="im"><img src="assets/img/stol.jpg" alt="Нержавеющая сталь"></div><h3>Нержавеющая сталь</h3><p>Для узлов, где нужна стойкость к коррозии: пищевое, уличное, влажное.</p></div><div class="card"><div class="im"><img src="assets/img/duga.jpg" alt="Алюминий"></div><h3>Алюминий</h3><p>Лёгкие детали и обшивка. Проверяйте толщину: тонкий алюминий ведёт от нагрева.</p></div><div class="card"><div class="im"><img src="assets/img/hero.jpg" alt="Что уточнить"></div><h3>Что уточнить</h3><p>Марку и толщину. От этого зависит режим и то, как получится кромка.</p></div></div></div></section><section class="band "><div class="wrap"><div class="sect__head"><div class="h2w"><span class="mono">03 · учёт</span><h2>Что влияет на вес и стоимость</h2></div><div><p>Простая логика, которая помогает планировать заказ.</p></div></div><div class="spec"><div class="spec__row"><span>Площадь детали</span><b>вес и расход металла</b></div><div class="spec__row"><span>Толщина</span><b>вес и скорость резки</b></div><div class="spec__row"><span>Длина реза</span><b>основная часть работы</b></div><div class="spec__row"><span>Число отверстий</span><b>добавляет реза</b></div><div class="spec__row"><span>Раскладка на листе</span><b>сколько уйдёт металла</b></div></div><p class="form__note" style="margin-top:12px">Калькулятор на сайте считает площадь, вес и длину реза для типовых форм — можно прикинуть заказ до звонка.</p></div></section><section class="cta"><div class="wrap cta__in"><div><h2>Не уверены, какой материал нужен?</h2><p>Позвоните: расскажите, где работает деталь, и мы подскажем вариант.</p></div><div><a class="cta__tel" href="tel:+375336865609">+375 (33) 686-56-09</a><a class="btn btn--spark" style="margin-top:9px" href="https://wa.me/375336865609">Написать в WhatsApp</a></div></div></section></main><footer class="foot"><div class="wrap"><div class="foot__in"><div><h4>ООО «АИДБУЛАТ»</h4><p style="color:rgba(255,255,255,.82);font-size:.85rem;max-width:38ch">Плазменная резка металла на станке с ЧПУ: детали любой геометрии по чертежу, серийные партии. Гродно, Гродненская область.</p><p style="margin-top:9px"><a href="tel:+375336865609">+375 (33) 686-56-09</a></p></div><div><h4>Разделы</h4><a href="index.html">Главная</a><a href="uslugi.html">Услуги</a><a href="materialy.html">Материалы</a><a href="konstruktor.html">Конструктор детали</a><a href="kachestvo.html">Качество</a></div><div><h4>Ещё</h4><a href="etapy.html">Этапы</a><a href="o-kompanii.html">О компании</a><a href="kontakty.html">Контакты</a><a href="politika.html">Политика</a><a href="https://wa.me/375336865609">WhatsApp</a><a href="viber://chat?number=%2B375336865609">Viber</a><a href="https://t.me/+375336865609">Telegram</a></div></div><div class="foot__low"><span>© 2026 ООО «АИДБУЛАТ», Гродно</span><span>Стоимость — после расчёта по чертежу</span></div></div></footer><div class="fbar"><a href="tel:+375336865609">Позвонить</a><a href="https://wa.me/375336865609">WhatsApp</a><a href="viber://chat?number=%2B375336865609">Viber</a><a href="https://t.me/+375336865609">Telegram</a></div><div class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-label="Меню"><div class="drawer__top"><span class="mono">Меню</span><button class="drawer__close" id="drawerClose" aria-label="Закрыть">✕</button></div><nav><a href="index.html">Главная</a><a href="uslugi.html">Услуги</a><a href="materialy.html" aria-current="page">Материалы</a><a href="konstruktor.html">Конструктор детали</a><a href="kachestvo.html">Качество</a><a href="etapy.html">Этапы</a><a href="o-kompanii.html">О компании</a><a href="kontakty.html">Контакты</a><a href="politika.html">Политика</a></nav><div class="drawer__foot"><a class="btn btn--spark" href="tel:+375336865609">+375 (33) 686-56-09</a><a class="btn btn--line" href="https://wa.me/375336865609">WhatsApp</a></div></div><script src="assets/js/main.v1.js"></script></body></html>
